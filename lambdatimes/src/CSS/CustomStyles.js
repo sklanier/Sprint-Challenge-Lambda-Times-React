@@ -85,7 +85,7 @@ const DivContainer5 = styled.div`
     
 `;
 
-const Header1 = styled.div`
+const Header2 = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -98,7 +98,7 @@ const Header1 = styled.div`
   padding-bottom: 15px;
 `;
 
-const Header2 = styled.h1`
+const Header1 = styled.h1`
   font-size: 60px;
   font-family: Didot, serif;
   font-weight: bold;
@@ -107,7 +107,7 @@ const Header2 = styled.h1`
   color: #000;
 `;
 
-const Header3= styled.span`
+const Header3= styled.div`
     ${props =>
         props.date
         ? `
